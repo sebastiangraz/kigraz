@@ -1,0 +1,172 @@
+(footprint "Generic_Battery_Connector"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x02, 1.27mm pitch, single row")
+	(tags "Through hole pin header THT 1x02 1.27mm single row")
+	(property "Reference" "J1"
+		(at 0 -1.7 0)
+		(layer "B.SilkS")
+		(uuid "52d0f5c6-7444-4895-ab45-ab3f8aed2834")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x02_Pin"
+		(at 0 3.015 0)
+		(layer "F.Fab")
+		(uuid "01b3540e-30ea-4925-89b3-e66596490a6e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53c0dda2-703e-4b97-9efe-93ba9068f163")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21694ff9-d05d-4051-a90d-54afe3b2b5a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 0.2)
+		(end -0.9 -0.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "9a5aebeb-9875-45f5-8430-eb6f97ccd666")
+	)
+	(fp_line
+		(start -0.7 0)
+		(end -1.1 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "771c20a8-fdb0-4809-9894-6c508fd4dc6e")
+	)
+	(fp_rect
+		(start -1.55 -1.14)
+		(end 1.55 2.41)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "50b7cf99-92a2-4264-abed-b2d5b7dc5748")
+	)
+	(fp_line
+		(start -1.05 -0.11)
+		(end -0.525 -0.635)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ebbc49a1-3283-4a14-b958-38b416f97230")
+	)
+	(fp_line
+		(start -1.05 1.905)
+		(end -1.05 -0.11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "908d139e-0bad-4f5d-ba5c-2a19910833c4")
+	)
+	(fp_line
+		(start -0.525 -0.635)
+		(end 1.05 -0.635)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f94b810-57e7-4562-a75e-d7d715257552")
+	)
+	(fp_line
+		(start 1.05 -0.635)
+		(end 1.05 1.905)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "850ae5f3-54c5-457e-abf5-be873dac50f0")
+	)
+	(fp_line
+		(start 1.05 1.905)
+		(end -1.05 1.905)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "00a6bbaa-550a-4799-9724-91c62e561532")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.635 90)
+		(layer "F.Fab")
+		(uuid "6f199c06-5b11-4c32-be25-e0ec17e822a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 1 1)
+		(layers "B.Cu" "B.Mask")
+		(uuid "81f936d6-aaf4-4881-a661-9c9aa407e68c")
+	)
+	(pad "2" smd circle
+		(at 0 1.27)
+		(size 1 1)
+		(layers "B.Cu" "B.Mask")
+		(uuid "da142524-58c2-4b43-9a02-3e6eb06a7edd")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_1.27mm.3dshapes/PinHeader_1x02_P1.27mm_Vertical.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
